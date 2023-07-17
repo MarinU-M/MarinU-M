@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Marin Umegane-McGuinness</h1>
-<h3 align="center">A passionate web/software developer to-be. Japanese available.</h3>
+<h3 align="center">A passionate web/software developer to-be.</h3>
 
 - 🌱 I’m currently learning at **Triple Ten's Software Engineering Bootcamp**
 
 - 📫 How to reach me **marin.umegane.m@gmail.com**
 
-- ⚡ Fun fact **Dog mom who is a knitter/crochetter, casual gamer, and music & movie lover.**
+- ⚡ Fun fact **Dog mom who is a knitter/crochetter, casual gamer, and music & movie lover. Born & raised in Japan now in the US.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
