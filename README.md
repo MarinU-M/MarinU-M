@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Marin Umegane-McGuinness</h1>
-<h3 align="center">A passionate web/software developer to-be from Japan</h3>
+<h3 align="center">A passionate web/software developer to-be. Japanese available.</h3>
 
 - 🌱 I’m currently learning at **Triple Ten's Software Engineering Bootcamp**
 
