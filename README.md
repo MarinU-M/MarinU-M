@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Marin Umegane-McGuiness</h1>
+<h1 align="center">Hi 👋, I'm Marin Umegane-McGuinness</h1>
 <h3 align="center">A passionate web/software developer to-be.</h3>
 
 - 🌱 I’m currently learning at **Triple Ten's Software Engineering Bootcamp**
