@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Edu TAS Beginner";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("../fonts/EduTASBeginner-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Edu TAS Beginner";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("../fonts/EduTASBeginner-Bold.ttf") format("truetype");
+}
+
+.page {
+  background-color: #faf0e6;
+  font-family: "Edu TAS Beginner", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 2px rgba(255, 99, 71, 1);
+}
+
+.content {
+  margin: 0;
+  padding: 0 10%;
+  /* background-color: #fdf5e6;
+  background-image: linear-gradient(180deg, #48d1cc 50%, transparent 50%);
+  background-size: 56px 3px; */
+  background: repeating-linear-gradient(
+    180deg,
+    #48d1cc,
+    #48d1cc 0.3px,
+    #faf0e6 3px,
+    #faf0e6 30px
+  );
+  line-height: 30px;
+}
+
+.content__self-info {
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
