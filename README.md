@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning at **Triple Ten's Software Engineering Bootcamp**
 
-- 👨‍💻 All of my projects are available at [https://marinu-m.github.io/MarinU-M/](https://marinu-m.github.io/MarinU-M/)
+- 👨‍💻 All of my projects are available at [https://marinumegane-m.com/](https://marinumegane-m.com/)
 
 - 📫 How to reach me **marin.umegane.m@gmail.com**
 
