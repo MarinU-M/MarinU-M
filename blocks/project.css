@@ -1,0 +1,31 @@
+.project__heading {
+  margin: 30px 0;
+}
+
+.project__list {
+  margin: 30px 0;
+}
+
+.project__list-item {
+  margin: 30px 0;
+}
+
+.project__list-item_elem_link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  background: linear-gradient(transparent 50%, #ff9999 0%);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0 100%;
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+
+.project__list-item_elem_link:hover {
+  background-size: 100% 100%;
+}
+
+.project__list-item_elem_description {
+  margin: 0;
+}
