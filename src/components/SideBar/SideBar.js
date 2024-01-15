@@ -1,8 +1,8 @@
 import "./sidebar.css";
-import mail from "../../images//mail-5914.svg";
+import mail from "../../images/mail-5914.svg";
 import linkedin from "../../images/linkedin-logo-circular-15919.svg";
 
-function SideBar() {
+function Sidebar() {
   return (
     <nav className="sidebar">
       <div className="sidebar__info">
@@ -38,4 +38,4 @@ function SideBar() {
   );
 }
 
-export default SideBar;
+export default Sidebar;
