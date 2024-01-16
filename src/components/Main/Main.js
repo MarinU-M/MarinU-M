@@ -6,7 +6,7 @@ function Main() {
   return (
     <main className="main">
       <div className="main__content">
-        <div className="content__self-info">
+        <section className="content__self-info">
           <div className="content__frame">
             <span className="content__tape"></span>
 
@@ -41,7 +41,7 @@ function Main() {
               accomplishments.
             </span>
           </p>
-        </div>
+        </section>
         <FunFact />
         <Project />
       </div>
