@@ -9,27 +9,6 @@
   left: 0;
   z-index: 0;
 }
-.sidebar__info {
-  background-color: #c1f792;
-  padding: 3%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin: 5px 1px;
-}
-
-.sidebar__info::before {
-  position: absolute;
-  bottom: -5px;
-  right: 7px;
-  z-index: -1;
-  transform: rotate(5deg);
-  width: 70%;
-  height: 50%;
-  background-color: #d0d0d0;
-  content: "";
-  filter: blur(4px);
-}
 
 .sidebar__social-heading {
   margin: 0;
@@ -41,26 +20,50 @@
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .sidebar__list-item {
-  margin-top: 10px;
-  font-size: smaller;
+  font-weight: bold;
+  background-color: #c1f792;
+  padding: 3%;
+  position: relative;
+  margin: 0;
+  width: 70%;
+}
+
+.sidebar__list-item::before {
+  position: absolute;
+  bottom: -5px;
+  right: 7px;
+  z-index: -1;
+  transform: rotate(5deg);
+  width: 70%;
+  height: 70%;
+  background-color: #d0d0d0;
+  content: "";
+  filter: blur(4px);
+  transition: right 0.5s ease-in 0.2s, bottom 0.5s ease-in 0.2s;
+}
+
+.sidebar__list-item:hover::before {
+  right: 25px;
+  bottom: -10px;
+  transition: right 0.5s ease-in 0.2s, bottom 0.5s ease-in 0.2s;
+}
+
+.sidebar__list-item_linkedin {
+  background-color: #b8dfff;
 }
 
 .sidebar__social-link {
   color: #000;
-  background: linear-gradient(transparent 50%, #ffcccc 0%);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 0 100%;
-  transition: all 0.8s ease;
   cursor: pointer;
-}
-
-.sidebar__social-link:hover {
-  background-size: 100% 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar__social-icon {

@@ -9,6 +9,8 @@
 .header__name {
   align-self: center;
   margin: 5% 2%;
+  font-weight: bolder;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 600px) {
