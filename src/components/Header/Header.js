@@ -3,7 +3,7 @@ import "./header.css";
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__name">Marin Umegane-McGuinness</h1>
+      <h1 className="header__name">Marin Umegane</h1>
     </header>
   );
 }
