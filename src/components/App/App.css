@@ -1,12 +1,10 @@
-.page {
+@import url(../../vendor/fonts.css);
+.App {
   background-color: #faf0e6;
   font-family: "Edu TAS Beginner", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-}
-
-.page__content {
   margin: 0;
   padding: 0;
 }

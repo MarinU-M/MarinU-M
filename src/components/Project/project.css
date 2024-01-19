@@ -28,4 +28,6 @@
 
 .project__list-item_elem_description {
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
