@@ -17,7 +17,12 @@ function FunFact() {
           </div>
           Dog mom
         </li>
-        <li className="fun-fact__list-item">Knitter/crochetter</li>
+        <li className="fun-fact__list-item">
+          <div className="fun-fact__frame">
+            <span className="fun-fact__tape"></span>
+          </div>
+          Knitter/crochetter
+        </li>
         <li className="fun-fact__list-item">Casual gamer</li>
         <li className="fun-fact__list-item">Music & movie lover</li>
         <li className="fun-fact__list-item">
