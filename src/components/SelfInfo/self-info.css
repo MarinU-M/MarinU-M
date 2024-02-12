@@ -49,7 +49,7 @@
   align-self: center;
 }
 
-.self-info__bootcamp-link {
+.self-info__link {
   text-decoration: none;
   color: #000;
   font-weight: bold;
@@ -61,6 +61,6 @@
   cursor: pointer;
 }
 
-.self-info__bootcamp-link:hover {
+.self-info__link:hover {
   background-size: 100% 100%;
 }
