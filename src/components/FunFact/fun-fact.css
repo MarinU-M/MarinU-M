@@ -4,6 +4,7 @@
   padding: 0 5%;
   flex-direction: column;
   align-items: flex-start;
+  max-width: 2000px;
 }
 .fun-fact__heading {
   margin: 30px 0;
@@ -13,8 +14,9 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
 }
 
 .fun-fact__list-item {
@@ -25,6 +27,8 @@
   border: solid 5px #333;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* position: relative;
   background: #f8f0d7;
   border-top: 10px dotted rgba(0, 0, 0, 0.1);
@@ -66,4 +70,17 @@
 .fun-fact__photo {
   width: 250px;
   height: 250px;
+}
+
+.fun-fact__icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 0 1em;
+  padding: 0;
+}
+
+.fun-fact__icon {
+  width: 5em;
+  height: auto;
 }
