@@ -6,7 +6,7 @@ function Project() {
       <div className="main__content">
         <div className="content__project">
           <h2 className="project__heading">
-            The project I worked/have been working on:
+            The projects I worked/have been working on:
           </h2>
           <ul className="project__list">
             <li className="project__list-item">

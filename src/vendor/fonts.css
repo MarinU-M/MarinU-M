@@ -13,3 +13,11 @@
   font-display: swap;
   src: url("./EduTASBeginner-Bold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "LoveYaLikeASister";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./LoveYaLikeASister-Regular.ttf") format("truetype");
+}
