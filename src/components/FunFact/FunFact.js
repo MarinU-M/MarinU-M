@@ -1,6 +1,5 @@
 import "./fun-fact.css";
 import dogmom from "../../images/dogmom.jpg";
-import game from "../../images/game_controller.png";
 import entertainment from "../../images/entertainment_set.png";
 import japan from "../../images/Japan.png";
 import usa from "../../images/United-States-of-America.png";
@@ -32,10 +31,6 @@ function FunFact() {
             />
           </div>
           Knitter/crochetter
-        </li>
-        <li className="fun-fact__list-item">
-          <img className="fun-fact__icon" src={game} alt="Gaming controller" />
-          Casual gamer
         </li>
         <li className="fun-fact__list-item">
           <img
