@@ -1,8 +1,11 @@
 import "./project.css";
+import madewithlove from "../../images/madewithlove.png";
+import GeneralModal from "../GeneralModal/GeneralModal";
 
 function Project() {
   return (
     <main className="main">
+      <GeneralModal />
       <div className="main__content">
         <div className="content__project">
           <h2 className="project__heading">
@@ -10,12 +13,18 @@ function Project() {
           </h2>
           <ul className="project__list">
             <li className="project__list-item">
-              <a
+              <span className="project__tape"></span>
+              <img
+                className="project__screenshot"
+                src={madewithlove}
+                alt="Project screenshot"
+              />
+              {/* <a
                 className="project__list-item_elem_link"
                 href="https://github.com/MarinU-M/project-randompattern-frontend"
-              >
-                MadeWithLove
-              </a>
+              > */}
+              <h3 className="project__title">MadeWithLove</h3>
+              {/* </a> */}
               <p className="project__list-item_elem_description">
                 <span>Tools: JavaScript, React</span>
                 <span>For: BootCamp final project</span>

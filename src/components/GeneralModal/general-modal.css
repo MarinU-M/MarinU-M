@@ -1,0 +1,64 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.modal__content {
+  background: #f8f0d7;
+  border-top: 10px dotted rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  max-height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.modal__close {
+  background-color: #c1f792;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  top: 20px;
+  right: -30px;
+  cursor: pointer;
+  color: #000;
+  font-family: "Edu TAS Beginner", cursive;
+  font-weight: bold;
+}
+
+.modal__close::before {
+  position: absolute;
+  right: -3px;
+  top: 15px;
+  z-index: -1;
+  transform: rotate(5deg);
+  width: 70%;
+  height: 70%;
+  background-color: #000;
+  content: "";
+  filter: blur(4px);
+  transition: right 0.1s ease-in 0.1s, top 0.1s ease-in 0.1s;
+}
+
+.modal__close:hover::before {
+  right: -10px;
+  top: 20px;
+  transition: right 0.5s ease-in 0.2s, top 0.5s ease-in 0.2s;
+}
+
+.modal__title {
+  margin: 1em 0;
+}
