@@ -1,6 +1,6 @@
 import "./general-modal.css";
 
-function GeneralModal({ name, onClose, title }) {
+function GeneralModal({ children, name, onClose, title }) {
   return (
     <div className={`modal modal_type_${name}`} onClick={onClose}>
       <div className="modal__content" onClick={(evt) => evt.stopPropagation()}>

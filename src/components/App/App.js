@@ -10,11 +10,15 @@ import React, { useEffect, useState } from "react";
 
 function App() {
   const [activeModal, setActiveModal] = useState("");
+  const [selectedCard, setSelectedCard] = useState({});
 
   // open and close modal
-  const handleOpenModal = () => {
-    setActiveModal("detail");
+  // handle modal of selected card
+  const handleSelectedCard = (card) => {
+    setActiveModal("preview");
+    setSelectedCard(card);
   };
+
   const handleCloseModal = () => {
     setActiveModal("");
   };
@@ -39,14 +43,17 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Main />} />
-        <Route path="/projects" element={<Project />} />
+        <Route
+          path="/projects"
+          element={<Project onSelectedCard={handleSelectedCard} />}
+        />
       </Routes>
       <Footer />
-      {activeModal === "detail" && (
+      {activeModal === "preview" && (
         <ProjectModal
-          isOpen={activeModal === "detail"}
+          isOpen={activeModal === "preview"}
           onClose={handleCloseModal}
-          // isLoading={isLoading}
+          selectedCard={selectedCard}
         />
       )}
     </div>
