@@ -1,0 +1,12 @@
+.project-modal__screenshot {
+  margin: 1em 0;
+  height: 300px;
+  width: auto;
+}
+
+.project-modal__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}

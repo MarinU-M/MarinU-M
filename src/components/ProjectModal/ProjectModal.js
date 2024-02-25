@@ -3,13 +3,20 @@ import GeneralModal from "../GeneralModal/GeneralModal";
 
 function ProjectModal({ selectedCard, onClose }) {
   return (
-    <GeneralModal name="project-detail" onClose={onClose} title="test">
+    <GeneralModal
+      name="project-detail"
+      onClose={onClose}
+      title={selectedCard.title}
+    >
       <img
-        className="project__screenshot"
+        className="project-modal__screenshot"
         src={selectedCard.img}
         alt="Project screenshot"
       />
-      <h3 className="project__title">{selectedCard.title}</h3>
+      <p className="project-modal__description">
+        <span>Tools: {selectedCard.tech}</span>
+        <span>For: {selectedCard.for}</span>
+      </p>
     </GeneralModal>
   );
 }

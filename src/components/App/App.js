@@ -11,7 +11,7 @@ import React, { useEffect, useState } from "react";
 function App() {
   const [activeModal, setActiveModal] = useState("");
   const [selectedCard, setSelectedCard] = useState({});
-
+  // const [projects, setProjects] = useState([]);
   // open and close modal
   // handle modal of selected card
   const handleSelectedCard = (card) => {
