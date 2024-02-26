@@ -8,11 +8,17 @@ function ProjectModal({ selectedCard, onClose }) {
       onClose={onClose}
       title={selectedCard.title}
     >
-      <img
-        className="project-modal__screenshot"
-        src={selectedCard.img}
-        alt="Project screenshot"
-      />
+      <a
+        className="project-modal__link"
+        href={selectedCard.url}
+        target="_blank"
+      >
+        <img
+          className="project-modal__screenshot"
+          src={selectedCard.img}
+          alt="Project screenshot"
+        />
+      </a>
       <p className="project-modal__description">
         <span>Tools: {selectedCard.tech}</span>
         <span>For: {selectedCard.for}</span>
