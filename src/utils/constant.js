@@ -44,7 +44,7 @@ const projectList = [
   {
     title: "Software Engineering Library",
     url: "https://github.com/MarinU-M/se_project_library",
-    src: { selibrary },
+    img: selibrary,
     tech: "HTML/CSS",
     for: "BootCamp static website project",
   },

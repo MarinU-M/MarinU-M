@@ -1,4 +1,5 @@
 import "./self-info.css";
+import author from "../../images/1560331657736.jpg";
 import { Link } from "react-router-dom";
 
 function SelfInfo() {
@@ -7,11 +8,7 @@ function SelfInfo() {
       <div className="self-info__frame">
         <span className="self-info__tape"></span>
 
-        <img
-          src="https://media.licdn.com/dms/image/C5103AQGoJeq7zC6jIg/profile-displayphoto-shrink_800_800/0/1560331657736?e=1710979200&v=beta&t=b7tyhC_B0BWkqeaNd7vyb3NV4hNcAmPbYZPdZVWKCpY"
-          className="self-info__img"
-          alt="creator icon"
-        />
+        <img src={author} className="self-info__img" alt="creator icon" />
       </div>
       <p className="self-info__text">
         <span>
