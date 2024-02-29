@@ -11,8 +11,13 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  transition: box-shadow 0.3s linear 0s;
 }
 
+.project-card__list-item:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s linear 0s;
+}
 .project-card__tape {
   position: absolute;
   top: -1em;
@@ -49,6 +54,11 @@
   color: #593869;
   transform: rotate(-4deg);
   visibility: visible;
+}
+
+.project-card__list-item:hover .project-card__tape {
+  visibility: hidden;
+  transition: visibility 0s linear 0s;
 }
 
 .project-card__screenshot {
