@@ -10,7 +10,7 @@
 }
 
 .project__heading {
-  margin: 30px auto;
+  margin: 0.6em auto 0.6em 0.6em;
   font-family: "LoveYaLikeASister", cursive;
   font-size: 2em;
   width: fit-content;
@@ -18,7 +18,7 @@
 }
 
 .project__list {
-  margin: 30px 0;
+  margin: 1em 0;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -28,13 +28,23 @@
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1370px) {
   .project__heading {
     font-size: 1.8em;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .project__heading {
     font-size: 1.6em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .project__heading {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project__heading {
+    font-size: 1.1em;
   }
 }
