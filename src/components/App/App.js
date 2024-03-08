@@ -7,11 +7,13 @@ import Footer from "../Footer/Footer";
 import ProjectModal from "../ProjectModal/ProjectModal";
 import { Routes, Route, useHistory } from "react-router-dom";
 import React, { useEffect, useState } from "react";
+import CurrentPageContext from "../../contexts/CurrentPageContext";
 
 function App() {
   const [activeModal, setActiveModal] = useState("");
   const [selectedCard, setSelectedCard] = useState({});
-  // const [projects, setProjects] = useState([]);
+  const [currentPage, setCurrentPage] = useState("profile");
+
   // open and close modal
   // handle modal of selected card
   const handleSelectedCard = (card) => {
@@ -39,23 +41,25 @@ function App() {
 
   return (
     <div className="App">
-      <SideBar />
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route
-          path="/projects"
-          element={<Project onSelectedCard={handleSelectedCard} />}
-        />
-      </Routes>
-      <Footer />
-      {activeModal === "preview" && (
-        <ProjectModal
-          isOpen={activeModal === "preview"}
-          onClose={handleCloseModal}
-          selectedCard={selectedCard}
-        />
-      )}
+      <CurrentPageContext.Provider value={currentPage}>
+        <SideBar />
+        <Header />
+        <Routes>
+          <Route exact path="/" element={<Main />} />
+          <Route
+            path="/projects"
+            element={<Project onSelectedCard={handleSelectedCard} />}
+          />
+        </Routes>
+        <Footer />
+        {activeModal === "preview" && (
+          <ProjectModal
+            isOpen={activeModal === "preview"}
+            onClose={handleCloseModal}
+            selectedCard={selectedCard}
+          />
+        )}
+      </CurrentPageContext.Provider>
     </div>
   );
 }

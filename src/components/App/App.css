@@ -8,15 +8,11 @@
   margin: 0;
   padding: 0;
   /* max-width: 1550px; */
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 150px auto 100px;
-  grid-template-areas:
-    "side-bar header"
-    "side-bar main"
-    "side-bar footer";
-  gap: none;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 430px) {
-}
+/* @media screen and (max-width: 430px) {
+  .App {
+  }
+} */
