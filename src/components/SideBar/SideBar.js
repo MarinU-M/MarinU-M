@@ -33,7 +33,7 @@ function SideBar() {
         </li>
         <li className="side-bar__list-item side-bar__list-item_linkedin">
           <a
-            href="https://www.linkedin.com/in/marin-umegane-24b337140/"
+            href="https://www.linkedin.com/in/marin-umegane/"
             className="side-bar__social-link"
           >
             <img
