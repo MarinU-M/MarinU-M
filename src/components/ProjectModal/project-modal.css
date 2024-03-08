@@ -14,4 +14,42 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 0;
+  font-size: 1em;
+}
+
+@media screen and (max-width: 900px) {
+  .project-modal__screenshot {
+    height: 280px;
+    width: auto;
+  }
+  .project-modal__description {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .project-modal__screenshot {
+    height: auto;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .project-modal__screenshot {
+    height: auto;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .project-modal__screenshot {
+    height: auto;
+    width: 320px;
+  }
+  .project-modal__description {
+    font-size: 0.6em;
+  }
+}
+@media screen and (max-width: 430px) {
+  .project-modal__screenshot {
+    height: auto;
+    width: 270px;
+  }
 }

@@ -12,10 +12,10 @@ function SelfInfo() {
       </div>
       <p className="self-info__text">
         <span>
-          Hello! I'm a junior web developer with a background in vulnerability
-          management analysis. My passion for cybersecurity led me to pursue a
-          career in IT communication. To expand my skills and gain a deeper
-          understanding, I enrolled in&nbsp;
+          Hello! I'm a junior software engineer/web developer with a background
+          in vulnerability management analysis. My passion for cybersecurity led
+          me to pursue a career in IT communication. To expand my skills and
+          gain a deeper understanding, I enrolled in&nbsp;
         </span>
         <a
           href="https://tripleten.com/software-engineer/?form_position=%2Fqa-engineer%2F&gaid=2057165500.1686775753&referrer=N%2FA"

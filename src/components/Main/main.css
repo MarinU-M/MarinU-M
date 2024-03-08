@@ -1,21 +1,29 @@
 .main {
+  /* grid-area: main; */
   margin: 0;
   background: repeating-linear-gradient(
     180deg,
     #48c8c4,
-    #48c8c4 0.3px,
-    #faf0e6 3px,
-    #faf0e6 30px
+    #48c8c4 0.01em,
+    #faf0e6 0.1em,
+    #faf0e6 1em
   );
   line-height: 30px;
-  max-width: 1550px;
+  /* max-width: 1550px; */
 }
 
 .main__content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   margin: 0 0 0 auto;
-  width: 1230px;
+  width: 80%;
+}
+
+@media screen and (max-width: 430px) {
+  .main__content {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

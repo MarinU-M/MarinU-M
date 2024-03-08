@@ -1,106 +1,50 @@
 .content__project {
   margin: 0;
-  width: 96%;
-  align-self: flex-start;
-  padding: 1em;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  /* align-self: flex-start; */
+  /* padding: 1em; */
   max-width: 1230px;
 }
 
 .project__heading {
-  margin: 30px 0;
+  margin: 0.6em auto 0.6em 0.6em;
   font-family: "LoveYaLikeASister", cursive;
   font-size: 2em;
   width: fit-content;
+  line-height: normal;
 }
 
 .project__list {
-  margin: 30px 0;
+  margin: 1em 0;
   list-style-type: none;
   padding: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1em;
+  justify-content: space-evenly;
 }
 
-.project__list-item {
-  margin: 30px 0;
-  position: relative;
-  background: #f8f0d7;
-  border-top: 10px dotted rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  color: #65513f;
-  width: 500px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  cursor: pointer;
+@media screen and (max-width: 1370px) {
+  .project__heading {
+    font-size: 1.8em;
+  }
 }
-
-.project__tape {
-  position: absolute;
-  top: -1em;
-  left: 26%;
-  width: 50px;
-  height: 25px;
-  background-color: #fff;
-  background-image: linear-gradient(
-      -45deg,
-      rgba(253, 151, 151, 0.5) 25%,
-      transparent 25%,
-      transparent 50%,
-      rgba(253, 151, 151, 0.5) 50%,
-      rgba(253, 151, 151, 0.5) 75%,
-      transparent 70%,
-      transparent 80%
-    ),
-    linear-gradient(
-      45deg,
-      rgba(253, 151, 151, 0.5) 25%,
-      transparent 25%,
-      transparent 50%,
-      rgba(253, 151, 151, 0.5) 50%,
-      rgba(253, 151, 151, 0.5) 75%,
-      transparent 70%,
-      transparent 80%
-    );
-  background-position: 0 0, 10px 10px;
-  background-size: 20px 20px;
-  border-left: 2px dotted rgba(0, 0, 0, 0.1);
-  border-right: 2px dotted rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  padding: 0.25em 2em;
-  color: #593869;
-  transform: rotate(-4deg);
-  visibility: visible;
+@media screen and (max-width: 1250px) {
+  .project__heading {
+    font-size: 1.6em;
+  }
 }
-
-.project__title {
-  color: #000;
-  font-weight: bold;
-  margin: 0;
+@media screen and (max-width: 600px) {
+  .project__heading {
+    font-size: 1.3em;
+  }
 }
-
-.project__list-item_elem_link {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
-  background: linear-gradient(transparent 50%, #ff9999 0%);
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 0 100%;
-  transition: all 0.8s ease;
-  cursor: pointer;
-}
-
-.project__list-item_elem_link:hover {
-  background-size: 100% 100%;
-}
-
-.project__list-item_elem_description {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 480px) {
+  .project__heading {
+    font-size: 1.1em;
+  }
 }

@@ -6,7 +6,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 25px;
   color: #65513f;
-  width: 300px;
+  width: fit-content;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -75,8 +75,21 @@
   color: #000;
   font-weight: bold;
   margin: 0;
+  width: 300px;
+  font-size: 1.2em;
   line-height: 47px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-card__screenshot {
+    height: 250px;
+    width: 250px;
+  }
+  .project-card__title {
+    font-size: 1em;
+    width: 250px;
+  }
 }

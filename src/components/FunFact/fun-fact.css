@@ -1,12 +1,13 @@
 .content__fun-fact {
   display: flex;
-  margin: 2em;
+  margin: 2em 0;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 2000px;
+  width: 100%;
+  /* max-width: 2000px; */
 }
 .fun-fact__heading {
-  margin: 0 0 1em 0;
+  margin: 0 auto 0 1em;
   font-family: "LoveYaLikeASister", cursive;
   font-size: 2em;
 }
@@ -15,9 +16,14 @@
   margin: 1em;
   padding: 0;
   list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 2em;
+  align-self: center;
+  max-width: 1050px;
 }
 
 .fun-fact__list-item {
@@ -77,4 +83,25 @@
 .fun-fact__icon {
   width: 5em;
   height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .fun-fact__photo {
+    width: 200px;
+    height: 200px;
+  }
+  .fun-fact__icon {
+    width: 4em;
+    height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .fun-fact__photo {
+    width: 180px;
+    height: 180px;
+  }
+  .fun-fact__icon {
+    width: 3.3em;
+    height: auto;
+  }
 }

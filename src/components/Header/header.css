@@ -1,24 +1,40 @@
 .header {
   display: flex;
-  flex-direction: column;
-
+  justify-content: center;
+  align-content: center;
   width: 80%;
   margin: 0 0 0 auto;
 }
 
 .header__name {
-  align-self: center;
-  margin: 5% 2%;
+  margin: 0.4em auto;
   font-weight: bolder;
-  font-size: 3.5em;
+  font-size: 3em;
   text-decoration: none;
   color: #000;
   font-family: "LoveYaLikeASister", cursive;
 }
 
+@media screen and (max-width: 700px) {
+  .header__name {
+    font-size: 2.5em;
+  }
+}
 @media screen and (max-width: 600px) {
   .header__name {
-    font-size: 2.5rem;
-    margin-right: 2%;
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 475px) {
+  .header__name {
+    font-size: 1.8em;
+  }
+}
+@media screen and (max-width: 430px) {
+  .header {
+    margin: 0 auto;
+  }
+  .header__name {
+    font-size: 1.7em;
   }
 }
