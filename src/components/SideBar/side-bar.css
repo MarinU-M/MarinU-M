@@ -23,7 +23,7 @@
 
 .side-bar__list-item {
   font-weight: bold;
-  background-color: #c1f792;
+  background-color: #acffac;
   padding: 3%;
   position: relative;
   margin: 0;
@@ -51,15 +51,15 @@
 }
 
 .side-bar__list-item_linkedin {
-  background-color: #b8dfff;
+  background-color: #c1e0ff;
 }
 
 .side-bar__list-item_project {
-  background-color: #ff9999;
+  background-color: #ffacac;
   margin-bottom: 2em;
 }
 .side-bar__social-link {
-  color: #000;
+  color: #151413;
   cursor: pointer;
   text-decoration: none;
   display: flex;

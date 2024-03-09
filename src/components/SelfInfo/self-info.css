@@ -44,18 +44,26 @@
   height: 300px;
   margin: 0;
 }
+.self-info__texts {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
 .self-info__text {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.1em;
   align-self: center;
   text-align: start;
-  max-width: 750px;
   width: auto;
+  color: #120b04;
+  line-height: normal;
+  text-indent: 1.1em;
 }
 
 .self-info__link {
   text-decoration: none;
-  color: #000;
+  color: #120b04;
   font-weight: bold;
   background: linear-gradient(transparent 50%, #ff9999 0%);
   background-repeat: no-repeat;

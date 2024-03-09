@@ -1,15 +1,13 @@
 .main {
-  /* grid-area: main; */
   margin: 0;
   background: repeating-linear-gradient(
     180deg,
     #48c8c4,
     #48c8c4 0.01em,
     #faf0e6 0.1em,
-    #faf0e6 1em
+    #faf0e6 1.1em
   );
-  line-height: 30px;
-  /* max-width: 1550px; */
+  line-height: normal;
 }
 
 .main__content {
