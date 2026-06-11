@@ -75,12 +75,10 @@
   color: #151413;
   font-weight: bold;
   margin: 0;
-  width: 300px;
+  max-width: 300px;
   font-size: 1.2em;
-  line-height: 47px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.4;
+  white-space: normal;
 }
 
 @media screen and (max-width: 1000px) {
