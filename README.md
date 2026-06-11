@@ -9,9 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://marinumegane-m.com/](https://marinumegane-m.com/)
 
-- 📫 How to reach me **marin.umegane.m@gmail.com**
-
-- ⚡ Fun fact **Dog mom who is a knitter/crochetter, casual gamer, and music & movie lover. Born & raised in Japan now in the US.**
+- ⚡ Fun fact **Dog and cat mom who is a knitter/crochetter, casual gamer, and music & movie lover. Born & raised in Japan now in the US.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
