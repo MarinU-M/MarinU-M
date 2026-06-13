@@ -12,6 +12,7 @@ function ProjectModal({ selectedCard, onClose }) {
         className="project-modal__link"
         href={selectedCard.url}
         target="_blank"
+        rel="noreferrer"
       >
         <img
           className="project-modal__screenshot"
