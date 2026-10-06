@@ -38,7 +38,7 @@ function App() {
       <SideBar />
       <Header />
       <Routes>
-        <Route exact path="/" element={<Main />} />
+        <Route path="/" element={<Main />} />
         <Route
           path="/projects"
           element={<Project onSelectedCard={handleSelectedCard} />}
