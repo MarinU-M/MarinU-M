@@ -3,20 +3,19 @@
   position: relative;
   background: #f8f0d7;
   border-top: 10px dotted rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 25px;
   color: #65513f;
   width: fit-content;
-  position: relative;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  transition: box-shadow 0.3s linear 0s;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .project-card__list-item:hover {
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s linear 0s;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+  transform: translateY(-6px);
 }
 .project-card__tape {
   position: absolute;

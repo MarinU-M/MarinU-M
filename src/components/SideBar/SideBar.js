@@ -11,7 +11,7 @@ function SideBar() {
   const isProjects = location.pathname === "/projects";
 
   return (
-    <nav className="side-bar">
+    <nav className="side-bar" aria-label="Main navigation">
       <ul className="side-bar__list">
         <li className="side-bar__list-item side-bar__list-item_project">
           {isProjects ? (
@@ -51,6 +51,8 @@ function SideBar() {
           <a
             href="https://www.linkedin.com/in/marin-umegane/"
             className="side-bar__social-link"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               src={linkedin}

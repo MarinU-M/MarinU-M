@@ -1,7 +1,6 @@
 import "./project-card.css";
 
 function ProjectCard({ item, onSelectedCard }) {
-  console.log(item);
   return (
     <li
       className="project-card__list-item"

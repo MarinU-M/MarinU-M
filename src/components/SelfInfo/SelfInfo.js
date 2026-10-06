@@ -20,7 +20,7 @@ function SelfInfo() {
             in&nbsp;
           </span>
           <a
-            href="https://tripleten.com/software-engineer/?form_position=%2Fqa-engineer%2F&gaid=2057165500.1686775753&referrer=N%2FA"
+            href="https://tripleten.com/software-engineer/"
             className="self-info__link"
           >
             Triple Ten's Software Engineering Bootcamp
